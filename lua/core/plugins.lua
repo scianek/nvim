@@ -14,6 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
     spec = {
         { import = "editor" },
+        { import = "ui" },
     },
     ui = { border = "rounded", backdrop = 100 },
     checker = { enabled = true, notify = false },
