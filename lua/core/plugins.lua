@@ -16,6 +16,7 @@ require("lazy").setup({
         { import = "editor" },
         { import = "navigation" },
         { import = "ui" },
+        { import = "lsp" },
     },
     ui = { border = "rounded", backdrop = 100 },
     checker = { enabled = true, notify = false },
