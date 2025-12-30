@@ -17,3 +17,9 @@ opt.laststatus = 3
 opt.cmdheight = 0
 opt.winborder = "rounded"
 opt.autoread = true
+
+opt.foldmethod = "expr"
+opt.foldlevel = 20
+opt.foldenable = false
+opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+opt.foldtext = "v:lua.vim.treesitter.foldtext()"
