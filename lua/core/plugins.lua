@@ -17,6 +17,7 @@ require("lazy").setup({
         { import = "navigation" },
         { import = "ui" },
         { import = "lsp" },
+        { import = "workflow" },
     },
     ui = { border = "rounded", backdrop = 100 },
     checker = { enabled = true, notify = false },
