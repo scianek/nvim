@@ -18,6 +18,7 @@ require("lazy").setup({
         { import = "ui" },
         { import = "lsp" },
         { import = "workflow" },
+        { import = "language-specific" },
     },
     ui = { border = "rounded", backdrop = 100 },
     checker = { enabled = true, notify = false },
